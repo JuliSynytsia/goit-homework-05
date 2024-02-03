@@ -151,7 +151,7 @@ p, h1, h2, h3, h4, h5, h6{
         background-position: center;
         background-color:#2E2F42;
         background-size: cover;
-        max-width: 1440px;
+        margin: 0 auto;
     }
     .hero-title{
     max-width: 496px;
@@ -327,8 +327,6 @@ margin-bottom: 72px;
     }
     .social-icons{
         fill: #F4F4FD;
-        width: 16px;
-        height: 16px;
         }
         
 .team-cube-box{
@@ -468,4 +466,52 @@ margin-bottom: 16px;
 .social-icons-list .foo:focus{
     background-color: #31D0AA;  
   }
-  
+  .backdrop{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top:0;
+   background-image:linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70));  
+  }
+  .form{
+    width: 408px;
+    min-height: 584px;
+    background-color:#FCFCFC;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px; 
+  }
+  .modal-title{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+  }
+.modal-close-btn{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    display: block;
+    margin-bottom: 24px; 
+}
+.modal-label{
+
+}
+  .modal-btn{
+    width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    display: block;
+
+
+  }
+  .modal-textarea{
+    width: 100%;
+    height: 120px;
+  }
