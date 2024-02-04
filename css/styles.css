@@ -501,17 +501,47 @@ text-align: center;
     margin-bottom: 24px; 
 }
 .modal-label{
-
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;   
+    margin-bottom: 6px;
 }
   .modal-btn{
     width: 169px;
     height: 56px;
     margin: 0 auto;
     display: block;
-
+    
 
   }
+  .modal-label:hover svg{
+    fill: #4D5AE5;
+  }
+
   .modal-textarea{
     width: 100%;
-    height: 120px;
+    height: 56px;
+    
+  }
+  .footer-input{
+    width: 100%; 
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    outline: transparent;
+  }
+  .input-icon{
+    fill: #2E2F42;
+    position: absolute;
+    left:16px;
+    top:50%;
+    transform: translateY(-50%);
+    
+  }
+  .modal-input{
+    position: relative;
+  }
+  .footer-input:focus{
+border-color: #4d5ae5;
   }
