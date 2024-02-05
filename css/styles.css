@@ -591,6 +591,9 @@ border: none;
 .footer-modal{
     margin-bottom: 8px;
 }
+.modal-field-checkbox{
+    margin-bottom: 24px;
+}
 .modal-label{
     font-weight: 400;
     font-size: 12px;
