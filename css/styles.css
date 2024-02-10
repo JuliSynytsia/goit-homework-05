@@ -412,14 +412,17 @@ width: 100%;
     .footer {
     background-color: #2E2F42;
     padding: 100px 0;
+    
     }
     
-    .footer-box{
+    .cointainer-footer{
         display: flex;
         align-items: baseline;
+       
     }
     .footer-logo-box{
    margin-right: 120px;
+   display: block;
    
     }
    .footer-resume {
@@ -447,7 +450,9 @@ margin-bottom: 16px;
     text-transform: uppercase;
 }
 .footer-social-box{
-    display: block;
+    display: flex;
+    flex-direction: column;
+
 
 }
 .footer-link-title{
